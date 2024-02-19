@@ -21,4 +21,4 @@ contract SmartMoneyExample{
     function withDrawTo(address payable reciever) public{
         reciever.transfer(getBalance());
     }
-}
+} 
